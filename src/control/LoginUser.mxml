@@ -25,9 +25,9 @@
 			}
 			
 			public function reg():void{
-//				var changepassword:RegisterUser=RegisterUser(PopUpManager.createPopUp( 
-//					FlexGlobals.topLevelApplication as DisplayObject, RegisterUser , true) as spark.components.TitleWindow);
-//				PopUpManager.centerPopUp(changepassword);
+				var changepassword:RegisterUser=RegisterUser(PopUpManager.createPopUp( 
+					FlexGlobals.topLevelApplication as DisplayObject, RegisterUser , true) as spark.components.TitleWindow);
+				PopUpManager.centerPopUp(changepassword);
 				closeWin();
 			}
 			
